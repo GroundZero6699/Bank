@@ -1,0 +1,142 @@
+/*
+ * Namn: Christoffer Wiik
+ * 
+ * Användarnamn LTU: chrwii3
+ * 
+ * Här hanteras enbart stilen till applikationen BankApp
+ * 
+ */
+.root{
+	-fx-border-color: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-border-style: solid;
+	-fx-border-width: 5px; 
+	-fx-border-radius: 0.8%;
+	-fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 1);
+	-fx-padding: 5px;
+	-fx-spacing: 15px;
+	-fx-background-color: radial-gradient(radius 175%, black, derive(black, 50%), derive(black, -60%));
+}
+.menu{
+	-fx-border-color: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-border-style: solid;
+	-fx-border-width: 5px; 
+	-fx-border-radius: 0.8%;
+	-fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 1);
+	-fx-padding: 0 30 0 30;
+	-fx-background-color: radial-gradient(radius 175%, black, derive(black, 50%), derive(black, -60%));
+}
+.menu .label{
+	-fx-text-fill: white;
+}
+.menu-bar{
+	-fx-background-color: radial-gradient(radius 175%, black, derive(black, 50%), derive(black, -60%));
+}
+#info{
+	-fx-text-fill: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-font-size: 30px;
+	-fx-padding: 0 0 0 130;
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow(three-pass-box, pink, 2, 3, -3, 4); 
+}
+#success{
+	-fx-fill: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-font-size: 28px;
+	-fx-effect: innershadow(gaussian, black, 5, 0, 0, 1);
+	-fx-border-style: solid;
+	-fx-border-width: 10px;
+	-fx-border-radius: 0.8%;
+	-fx-border-color: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-font-weight: bold;
+}
+#error{
+	-fx-fill: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-effect: innershadow(gaussian, black, 5, 0, 0, 1);
+	-fx-border-style: solid;
+	-fx-border-width: 10px;
+	-fx-border-radius: 0.8%;
+	-fx-border-color: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-font-weight: bold;
+	-fx-font-size: 28px;
+}
+.menu-item{
+	-fx-border-color: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-border-style: solid;
+	-fx-border-width: 5px; 
+	-fx-border-radius: 0.8%;
+	-fx-padding: 10px;
+	-fx-background-color: radial-gradient(radius 175%, black, derive(black, 50%), derive(black, -60%));
+}
+.text-field{
+	-fx-text-fill: linear-gradient(to top, red, green);
+	-fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 0);
+}
+.label{
+	-fx-text-fill: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-font-size: 15px;
+	-fx-text-fill: white;
+}
+.button{
+	-fx-border-color: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-border-style: solid;
+	-fx-border-width: 5px; 
+	-fx-border-radius: 0.8%;
+	-fx-text-fill: white;
+	-fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 1);
+	-fx-padding: 5px;
+	-fx-background-color: radial-gradient(radius 180%, black, derive(black, 70%), derive(black, -80%));
+}
+.scene{
+	-fx-effect: dropshadow(three-pass-box, rgba(255, 0, 0, 1), 30, 0, 0, 1);
+}
+.check-box{
+	-fx-text-fill: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+}
+GridPane{
+	-fx-vgap: 5px;
+	-fx-border-style: solid;
+	-fx-border-color: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-border-width: 5px;
+	-fx-padding: 5 5 5 5;
+}
+#right{
+	-fx-border-style: solid;
+	-fx-border-color: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-border-width: 5px;
+	-fx-border-radius: 0.8%;
+	-fx-padding: 5 5 5 5;
+	-fx-spacing: 20px;
+}
+#left{
+	-fx-border-style: solid;
+	-fx-border-color: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-border-width: 5px;
+	-fx-padding: 5 5 5 5;
+	-fx-border-radius: 0.8%;
+	-fx-spacing: 10px;
+}
+#top{
+	-fx-border-style: solid;
+	-fx-border-color: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-border-width: 5px;
+	-fx-border-radius: 0.8%;
+    -fx-padding: 5 5 5 5;
+}
+#center{
+	-fx-border-style: solid;
+	-fx-border-color: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-border-width: 5px;
+	-fx-padding: 5 5 5 5;
+	-fx-border-radius: 0.8%;
+	-fx-spacing: 10px;
+}
+#information{
+	-fx-border-style: solid;
+	-fx-border-color: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-border-width: 5px;
+	-fx-padding: 5 5 5 5;
+	-fx-border-radius: 0.8%;
+	-fx-spacing: 10px;
+	-fx-fill: radial-gradient(radius 175%, red, derive(red, 50%), derive(red, -60%));
+	-fx-font-weight: bold;
+	-fx-font-size: 15px;
+}
